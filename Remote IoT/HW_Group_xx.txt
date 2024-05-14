@@ -1,0 +1,77 @@
+main
+call rotateCW 5
+call wait 1
+call detect 1
+call wait 1
+call flush 15
+end
+
+rotateCW
+o7
+call wait 1
+c13
+call wait 1
+o10
+call wait 1
+c2
+call wait 1
+o13
+call wait 1
+c7
+call wait 1
+o2
+call wait 1
+c10
+call wait 1
+end
+
+detect
+o10
+call wait 1
+o9
+call wait 1
+o8
+call wait 1
+c2
+call wait 1
+c13
+call wait 1
+c10
+call wait 1
+c9
+call wait 1
+c8
+call wait 20
+end
+
+wait
+w1000
+end
+
+flush
+o1
+call wait 1
+o2
+call wait 1
+c1
+call wait 1
+o13
+call wait 1
+c2
+call wait 1
+o10
+call wait 1
+c13
+call wait 1
+o9
+call wait 1
+c10
+call wait 1
+o8
+call wait 1
+c9
+call wait 1
+c8
+call wait 20
+end
+
